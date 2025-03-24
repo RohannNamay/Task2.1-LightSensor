@@ -45,6 +45,6 @@ void loop() {
     Serial.println("Error updating channel. HTTP code: " + String(status));
   }
 
-  // Wait 60 seconds before next update
+  // Wait 30 seconds before next update
   delay(30000);
 }
